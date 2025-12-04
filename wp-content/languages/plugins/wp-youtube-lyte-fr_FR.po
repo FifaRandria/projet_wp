@@ -1,0 +1,425 @@
+# Translation of Plugins - WP YouTube Lyte - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP YouTube Lyte - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-03 14:10:43+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP YouTube Lyte - Stable (latest release)\n"
+
+#: options.php:254
+msgid "Also act on normal YouTube links and iframes?"
+msgstr "Agir également sur les liens normaux de YouTube et les iframes ?"
+
+#: options.php:282
+msgid "If you want to add e.g. a privacy disclaimer under every LYTE embedded video, you can do so here. Some HTML is allowed. Simply leave empty not to show anything."
+msgstr "Si vous souhaitez ajouter, par exemple, une clause de non-responsabilité en matière de confidentialité sous chaque vidéo LYTE embarquée, vous pouvez le faire ici. Le langage HTML est autorisé. Laissez simplement vide pour ne rien afficher."
+
+#: options.php:279
+msgid "Text (e.g. for disclaimer) to be added under every LYTE video."
+msgstr "Texte (par exemple pour la clause de non-responsabilité) à ajouter sous chaque vidéo LYTE."
+
+#: options.php:276
+msgid "Text to be added under every LYTE video."
+msgstr "Texte à ajouter sous chaque vidéo LYTE."
+
+#: options.php:449
+msgid "Your API key might be OK, but the API call did not succeed or the response was not entirely expected. Technical error: "
+msgstr "Votre clé API peut être correcte, mais l’appel API n’a pas réussi ou la réponse n’était pas entièrement attendue. Erreur technique : "
+
+#: options.php:269
+msgid "No, keep on using YouTube hosted thumbnails."
+msgstr "Non, continuez à utiliser les miniatures hébergées par YouTube."
+
+#: options.php:271
+msgid "Having the thumbnails cached locally can improve performance and will enhance visitor privacy as by default no requests will be sent to YouTube unless the video is played."
+msgstr "La mise en cache locale des miniatures peut améliorer les performances et renforcer la confidentialité des visiteurs car, par défaut, aucune demande ne sera envoyée à YouTube si la vidéo n’est pas lue."
+
+#: options.php:269
+msgid "No (default)."
+msgstr "Non (par défaut)."
+
+#: options.php:268
+msgid "Yes."
+msgstr "Oui."
+
+#: options.php:264 options.php:267
+msgid "Cache thumbnails locally?"
+msgstr "Mettre en cache les miniatures ?"
+
+#: options.php:234
+msgid "Try to force HD?"
+msgstr "Essayer de forcer la HD ?"
+
+#: options.php:490
+msgid "Main"
+msgstr "Principal"
+
+#: options.php:477
+msgid "Posted %s"
+msgstr "Publié %s"
+
+#: options.php:472
+msgid "No items"
+msgstr "Aucun élément"
+
+#: options.php:322
+msgid "Try my other plugins!"
+msgstr "Essayez mes autres extensions !"
+
+#: options.php:322
+msgid "Happy with wp-youtube-lyte?"
+msgstr "Êtes-vous satisfait de WP YouTube Lyte ?"
+
+#: options.php:32
+msgid "WP YouTube Lyte cache was partially cleared, refresh this page to continue purging."
+msgstr "Le cache de WP YouTube Lyte a été partiellement effacé, actualisez cette page pour continuer la purge."
+
+#: lytePartners.php:87
+msgid "Have a look at <a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> for wp-youtube-lyte power-ups!"
+msgstr "Consultez le site <a href=\"http://optimizingmatters.com/\">optimizingmatters.com</a> pour des bonus WP YouTube Lyte !"
+
+#: lytePartners.php:77
+msgid "These related services will improve your site's performance even more!"
+msgstr "Ces services connexes amélioreront encore plus les performances de votre site !"
+
+#: lytePartners.php:16
+msgid "More Performance!"
+msgstr "Plus de performances !"
+
+#. Author URI of the plugin
+#: wp-youtube-lyte.php
+msgid "http://blog.futtta.be/"
+msgstr "http://blog.futtta.be/"
+
+#. Author of the plugin
+#: wp-youtube-lyte.php
+msgid "Frank Goossens (futtta)"
+msgstr "Frank Goossens (futtta)"
+
+#. Description of the plugin
+#: wp-youtube-lyte.php
+msgid "Lite and accessible YouTube audio and video embedding."
+msgstr "Incrustation audio et vidéo YouTube légère et accessible."
+
+#. Plugin URI of the plugin
+#: wp-youtube-lyte.php
+msgid "http://blog.futtta.be/wp-youtube-lyte/"
+msgstr "http://blog.futtta.be/wp-youtube-lyte/"
+
+#: wp-youtube-lyte.php:740
+msgid "Settings"
+msgstr "Configuration"
+
+#: wp-youtube-lyte.php:250 wp-youtube-lyte.php:255
+msgid "Watch this video on YouTube"
+msgstr "Lire cette vidéo sur YouTube"
+
+#: wp-youtube-lyte.php:243
+msgid "on YouTube"
+msgstr "sur YouTube"
+
+#: wp-youtube-lyte.php:243
+msgid "Watch this playlist"
+msgstr "Lire cette liste de lecture"
+
+#: wp-youtube-lyte.php:237
+msgid "Watch this playlist on YouTube"
+msgstr "Lire cette liste de lecture sur YouTube"
+
+#: widget.php:169
+msgid "Text:"
+msgstr "Texte :"
+
+#: widget.php:168
+msgid "Youtube-URL:"
+msgstr "URL YouTube :"
+
+#: widget.php:164
+msgid "video"
+msgstr "vidéo"
+
+#: widget.php:163
+msgid "audio"
+msgstr "audio"
+
+#: widget.php:153
+msgid "Type:"
+msgstr "Type :"
+
+#: widget.php:135
+msgid "Size:"
+msgstr "Taille :"
+
+#: widget.php:134
+msgid "Title:"
+msgstr "Titre :"
+
+#: player_sizes.inc.php:59
+msgid "Maxi 16:9 player"
+msgstr "Maxi lecteur 16:9"
+
+#: player_sizes.inc.php:53
+msgid "Maxi 4:3 player"
+msgstr "Maxi lecteur 4:3"
+
+#: player_sizes.inc.php:47
+msgid "Larger 16:9 player"
+msgstr "Grand lecteur 16:9"
+
+#: player_sizes.inc.php:41
+msgid "Larger 4:3 player"
+msgstr "Grand lecteur 4:3"
+
+#: player_sizes.inc.php:35
+msgid "YouTube default for 16:9-ratio video"
+msgstr "Configuration par défaut de YouTube pour les vidéos 16:9"
+
+#: player_sizes.inc.php:29
+msgid "Standard value, YouTube default for 4:3-ratio video"
+msgstr "Valeur standard, configuration par défaut de YouTube pour les vidéos 4:3"
+
+#: player_sizes.inc.php:23
+msgid "Smaller 16:9 player"
+msgstr "Petit lecteur 16:9"
+
+#: player_sizes.inc.php:17
+msgid "Smaller 4:3 player"
+msgstr "Petit lecteur 4:3"
+
+#: player_sizes.inc.php:11
+msgid "Mini 16:9 player"
+msgstr "Mini lecteur 16:9"
+
+#: options.php:454
+msgid "Something went wrong, WP YouTube Lyte might not have been able to retrieve information from the YouTube API, got error: "
+msgstr "Il y a eu un problème. WP YouTube Lyte n'a probablement pas pu retrouver l'information de l'API YouTube avec l'erreur suivante :"
+
+#: options.php:446
+msgid " was not found we cannot be sure, please try again."
+msgstr "n'a pas été trouvée. Veuillez essayer à nouveau."
+
+#: options.php:444
+msgid "probably work, but as the video with id "
+msgstr "fonctionne probablement, mais la vidéo avec l'ID "
+
+#: options.php:440
+msgid "be correct, but seems to have exceeded the number of requests that can be made with it."
+msgstr "être correcte, mais a dépassé la limite du nombre de requêtes permises."
+
+#: options.php:433
+msgid "have expired, please check in the Google Developer Console."
+msgstr "avoir expiré ; veuillez vérifier dans la Console Google Developer."
+
+#: options.php:428
+msgid "Try changing the allowed IP for your API key to include this one: "
+msgstr "Essayer de changer les adresses IP autorisées pour votre clé API, en ajoutant celle-ci :"
+
+#: options.php:427
+msgid "be valid, but restricted to an IP-address which is not your server's."
+msgstr "être valide, mais n'est pas activée pour l'adresse IP de votre serveur."
+
+#: options.php:423
+msgid "be invalid."
+msgstr "être invalide."
+
+#: options.php:419
+msgid "API key not OK, your key seems to "
+msgstr "La clé API n'est pas en ordre : elle semble"
+
+#: options.php:417
+msgid "API seems OK, you can Save Changes below now."
+msgstr "La clé API semble OK, vous pouvez enregistrer ci-dessous."
+
+#: options.php:371
+msgid "That does not seem to be a correct API key!"
+msgstr "Ça ne semble pas être une clé API correcte !"
+
+#: options.php:359
+msgid "Checking your key ..."
+msgstr "Vérification de votre clé..."
+
+#: options.php:346
+msgid "Do not donate for this plugin!"
+msgstr "Ne pas donner pour cette extension !"
+
+#: options.php:331
+msgid "Web Technology"
+msgstr "Technologie web"
+
+#: options.php:330
+msgid "WordPress"
+msgstr "WordPress"
+
+#. Plugin Name of the plugin
+#: wp-youtube-lyte.php options.php:329
+msgid "WP YouTube Lyte"
+msgstr "WP YouTube Lyte"
+
+#: options.php:327
+msgid "futtta about"
+msgstr "À propos de futtta"
+
+#: options.php:298
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: options.php:287
+msgid "Empty WP YouTube Lyte's cache"
+msgstr "Vider le cache de WP YouTube Lyte"
+
+#: options.php:259
+msgid "No thanks."
+msgstr "Non merci."
+
+#: options.php:259
+msgid "No, I'll stick to httpv or shortcodes."
+msgstr "Non, je préfère les liens httpv ou les \"shortcodes\"."
+
+#: options.php:258 options.php:268
+msgid "That would be great!"
+msgstr "Ce serait magnifique !"
+
+#: options.php:257
+msgid "Also act on normal YouTube links?"
+msgstr "Agir aussi sur les liens YouTube normaux ?"
+
+#: options.php:249
+msgid "No microdata, thanks."
+msgstr "Non, pas de micro-données."
+
+#: options.php:249
+msgid "No microdata in my HTML please."
+msgstr "Non, pas de micro-données dans mon HTML."
+
+#: options.php:248 options.php:258
+msgid "Yes (default)"
+msgstr "Oui (par défaut)"
+
+#: options.php:248
+msgid "Sure, add microdata!"
+msgstr "Oui, ajouter des micro-données !"
+
+#: options.php:247
+msgid "Add video microdata to the HTML?"
+msgstr "Ajouter des micro-données au code HTML ? "
+
+#: options.php:244
+msgid "Add microdata?"
+msgstr "Ajouter des micro-données ?"
+
+#: options.php:239
+msgid "No HD (default)"
+msgstr "Pas de HD (par défaut)"
+
+#: options.php:239
+msgid "Don't enable HD playback"
+msgstr "Ne pas activer les vidéos HD."
+
+#: options.php:238
+msgid "Enable HD"
+msgstr "Activer la HD"
+
+#: options.php:238
+msgid "Enable HD?"
+msgstr "Activer la HD ?"
+
+#: options.php:237
+msgid "HD or not?"
+msgstr "HD ou pas ?"
+
+#: options.php:229
+msgid "Center"
+msgstr "Centré"
+
+#: options.php:228
+msgid "Left"
+msgstr "Gauche"
+
+#: options.php:227
+msgid "Left, center or right?"
+msgstr "À gauche, centré ou à droite ?"
+
+#: options.php:224
+msgid "Player position:"
+msgstr "Position du lecteur :"
+
+#: options.php:219
+msgid " Don't add any links."
+msgstr "N'ajouter aucun lien."
+
+#: options.php:219
+msgid "Don't include links."
+msgstr "N'ajouter aucun lien."
+
+#: options.php:218
+msgid " Add YouTube-link."
+msgstr " Ajouter le lien YouTube."
+
+#: options.php:218
+msgid "Show YouTube-link"
+msgstr "Afficher le lien YouTube."
+
+#: options.php:217
+msgid "Show links?"
+msgstr "Afficher les liens ?"
+
+#: options.php:214
+msgid "Add links below the embedded videos?"
+msgstr "Ajouter des liens sous les vidéos incrustées ?"
+
+#: options.php:193 options.php:195
+msgid "Player size"
+msgstr "Taille du lecteur"
+
+#: options.php:188
+msgid "Great, your YouTube API key has been taken care of!"
+msgstr "Fantastique : votre clé API YouTube est prise en compte."
+
+#: options.php:185
+msgid "WP YouTube Lyte uses YouTube's API to fetch information on each video. For your site to use that API, you will have to <a href=\"https://console.developers.google.com/project/\" target=\"_blank\">register your site as a new application</a>, enable the YouTube API for it and get a server key and fill it out here."
+msgstr "WP YouTube Lyte utilise l'API YouTube pour chercher de l'information sur chaque vidéo. Pour que votre site puisse utiliser cette API, vous devez <a href=\"https://console.developers.google.com/project/\" target=\"_blank\">enregistrer votre site comme nouvelle application</a>, activer l'API YouTube, générer une clé API et la remplir ci-dessus."
+
+#: options.php:183
+msgid "Test Key"
+msgstr "Tester la clé API."
+
+#: options.php:183
+msgid "API key"
+msgstr "Clé de l’API"
+
+#: options.php:182
+msgid "Please enter your YouTube API key."
+msgstr "Veuillez entrer votre clé API YouTube."
+
+#: options.php:176
+msgid "Your YouTube API key."
+msgstr "Votre clé API YouTube."
+
+#: lytePartners.php:74 options.php:169
+msgid "WP YouTube Lyte Settings"
+msgstr "Réglages de WP YouTube Lyte"
+
+#: options.php:89
+msgid "WP YouTube Lyte got the following error back from the YouTube API: "
+msgstr "WP YouTube Lyte a reçu cette erreur de l'API YouTube:"
+
+#: options.php:76
+msgid "in the settings screen."
+msgstr "dans l'écran de configuration."
+
+#: options.php:74
+msgid "For WP YouTube Lyte to function optimally, you should enter an YouTube API key "
+msgstr "Pour que WP YouTube Lyte fonctionne de manière optimale, vous devez entrer une clé API YouTube"
+
+#: options.php:38
+msgid "There was a problem, the WP YouTube Lyte cache could not be cleared."
+msgstr "Il y a eu un problème : le cache de WP YouTube Lyte n'a pas pu être effacé."
+
+#: options.php:26
+msgid "Your WP YouTube Lyte cache has been succesfully cleared."
+msgstr "Le cache de WP YouTube Lyte a été correctement effacé."
