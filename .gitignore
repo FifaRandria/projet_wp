@@ -1,37 +1,38 @@
-# 🔥 IGNORE COMPLETEMENT WordPress Core
-wp-admin/
-wp-includes/
+# # 🔥 IGNORE COMPLETEMENT WordPress Core
+# wp-admin/
+# wp-includes/
 
-# 🔥 IGNORE LES UPLOADS (trop lourds)
-wp-content/uploads/
+# # 🔥 IGNORE LES UPLOADS (trop lourds)
+# wp-content/uploads/
 
-# 🔥 IGNORE LES CACHE / BACKUPS
-wp-content/cache/
-wp-content/backups/
-wp-content/upgrade/
-wp-content/ai1wm-backups/
+# # 🔥 IGNORE LES CACHE / BACKUPS
+# wp-content/cache/
+# wp-content/backups/
+# wp-content/upgrade/
+# wp-content/ai1wm-backups/
 
-# 🔥 IGNORE TOUS LES PLUGINS, sauf les tiens
-wp-content/plugins/*
-# !wp-content/plugins/ton-plugin-personnel/
+# # 🔥 IGNORE TOUS LES PLUGINS, sauf les tiens
+# wp-content/plugins/*
+# # !wp-content/plugins/ton-plugin-personnel/
 
-# 🔥 IGNORE TOUS LES THEMES, sauf ton thème enfant
-wp-content/themes/*
-# !wp-content/themes/ton-theme-enfant/
+# # 🔥 IGNORE TOUS LES THEMES, sauf ton thème enfant
+# wp-content/themes/*
+# # !wp-content/themes/ton-theme-enfant/
 
-# 🔥 IGNORE FICHIERS LOURDS
-*.zip
-*.tar
-*.gz
-*.psd
-*.ai
-*.mp4
-*.mp3
-*.avi
+# # 🔥 IGNORE FICHIERS LOURDS
+# *.zip
+# *.tar
+# *.gz
+# *.psd
+# *.ai
+# *.mp4
+# *.mp3
+# *.avi
+*.htaccess
 
-# 🔥 IGNORE CONFIGS AUTO
-node_modules/
-vendor/
-.env
-.DS_Store
-Thumbs.db
+# # 🔥 IGNORE CONFIGS AUTO
+# node_modules/
+# vendor/
+# .env
+# .DS_Store
+# Thumbs.db
