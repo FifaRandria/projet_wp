@@ -12,11 +12,11 @@ wp-content/upgrade/
 wp-content/ai1wm-backups/
 
 # 🔥 IGNORE TOUS LES PLUGINS, sauf les tiens
-# wp-content/plugins/*
+wp-content/plugins/*
 # !wp-content/plugins/ton-plugin-personnel/
 
 # 🔥 IGNORE TOUS LES THEMES, sauf ton thème enfant
-# wp-content/themes/*
+wp-content/themes/*
 # !wp-content/themes/ton-theme-enfant/
 
 # 🔥 IGNORE FICHIERS LOURDS
