@@ -1,0 +1,130 @@
+/* GENERAL */
+body, .home {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    color: #0d1b2a;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    background: url('https://victimesduphotovoltaique.com/wp-content/uploads/2024/03/solaire.jpg');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.4);
+    z-index: -1;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: white;
+    animation: slideDown 1s ease;
+}
+
+.hero p {
+    color: #ddd;
+    max-width: 600px;
+    margin: 20px auto;
+    animation: fadeIn 2s ease;
+}
+
+.cta {
+    background: #ffce45;
+    color: #0d1b2a;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #f8b400;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+    0% { opacity: 0 }
+    100% { opacity: 1 }
+}
+
+@keyframes slideDown {
+    0% { opacity: 0; transform: translateY(-25px) }
+    100% { opacity: 1; transform: translateY(0) }
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 180px;
+}
+
+.stat-card h2 {
+    color: #ffce45;
+    font-size: 2.5rem;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 10%;
+    gap: 50px;
+}
+
+.about-img {
+    width: 50%;
+    background: url('https://victimesduphotovoltaique.com/wp-content/uploads/2024/02/team.jpg');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+/* SERVICES */
+.services {
+    text-align: center;
+    padding: 80px 10%;
+}
+
+.service-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: .3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
