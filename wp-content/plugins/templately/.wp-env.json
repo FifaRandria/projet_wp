@@ -1,0 +1,11 @@
+{
+  "multisite": true,
+  "port": 8888,
+  "plugins": ["."],
+  "config": {
+    "WP_TESTS_USERNAME": "admin",
+    "WP_TESTS_PASSWORD": "admin",
+    "WP_DEBUG": true,
+    "WP_DEBUG_LOG": true
+  }
+}

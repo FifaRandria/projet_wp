@@ -23,9 +23,9 @@ define( 'WP_CACHE', true );
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wp_cash' );
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'admin_pma' );
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'MonSuperMotDePasse' );
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 /** Database charset to use in creating database tables. */
@@ -73,7 +73,11 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
+
+define('FS_METHOD', 'direct');
+
 /* That's all, stop editing! Happy publishing. */
+
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );
