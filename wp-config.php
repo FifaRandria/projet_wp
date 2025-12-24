@@ -21,7 +21,7 @@ define( 'WP_CACHE', true );
  */
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp5_cash' );
+define( 'DB_NAME', 'wpwp_cash' );
 /** Database username */
 define( 'DB_USER', 'root' );
 /** Database password */
